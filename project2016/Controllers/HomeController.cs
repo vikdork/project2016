@@ -26,5 +26,12 @@ namespace project2016.Controllers
 
             return View();
         }
+        public  ActionResult Resultat (string serverNamn)
+        {
+
+            ViewBag.test = serverNamn;
+            return View();
+            
+        }
     }
 }
